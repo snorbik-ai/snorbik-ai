@@ -46,10 +46,11 @@ De l’analyse du besoin à la conception, au développement, aux tests et au d�
 
 | Dépôt Showcase | Description & Architecture | Stack | Statut |
 | :--- | :--- | :--- | :--- |
+| [**llm-security-gateway-showcase**](https://github.com/snorbik-ai/llm-security-gateway-showcase) | Pare-feu applicatif IA, détection prompt injection temps réel et runtime d'audit forensique | Python, FastAPI, Ollama, FAISS | 🟢 *Showcase Public* |
 | [**mcp-application-factory-showcase**](https://github.com/snorbik-ai/mcp-application-factory-showcase) | Usine industrielle de génération de dispositifs applicatifs et serveurs FastMCP tri-canal (stdio, SSE, CLI) | Python, FastMCP, TypeScript, Docker | 🟢 *Showcase Public* |
-| [**bio-atlas-agent-showcase**](https://github.com/snorbik-ai/bio-atlas-agent-showcase) | Agent IA de cartographie prédictive et rénovation énergétique du bâti parisien avec requêtage analytique | DuckDB, PyArrow, OpenData Paris, React | 🟢 *Showcase Public* |
+| [**snorbik-projects-viewer-sdk-showcase**](https://github.com/snorbik-ai/snorbik-projects-viewer-sdk-showcase) | Composant multi-distribution (Web SDK, CLI, Extension, FastMCP) d'intégration sécurisée de portfolio | Clean Architecture DDD, React, Vite, FastMCP | 🟢 *Showcase Public* |
 | [**copilot-rdv-showcase**](https://github.com/snorbik-ai/copilot-rdv-showcase) | Assistant intelligent de prise de rendez-vous conversationnel et visuel split-screen avec scellage iCal/RFC 5545 | FastMCP, SQLite, React 19, Tailwind | 🟢 *Showcase Public* |
-| [**snorbik-projects-viewer-sdk**](https://github.com/snorbik-ai/snorbik-projects-viewer-sdk) | Composant multi-distribution (Web SDK, CLI, Extension, FastMCP) d'intégration sécurisée de portfolio | Clean Architecture DDD, React, Vite, FastMCP | 🟢 *Outil Interne #25* |
+| [**bio-atlas-agent-showcase**](https://github.com/snorbik-ai/bio-atlas-agent-showcase) | Agent IA de cartographie prédictive et rénovation énergétique du bâti parisien avec requêtage analytique | DuckDB, PyArrow, OpenData Paris, React | 🟢 *Showcase Public* |
 | [**axesteel-ecommerce-garde-corps**](https://github.com/snorbik-ai/axesteel-ecommerce-garde-corps) | SaaS E-Commerce BTP avec copilote devis 3D en langage naturel, calcul de calepinage NF P01-012 | Python 3.12, FastAPI, React 19, SQLite, 13 MCPs | 🟢 *Production Privée* |
 | [**G-Genome-AI-Framework**](https://github.com/snorbik-ai/G-Genome-AI-Framework) | Framework d'analyse énergétique des logements parisiens et modélisation de consommation | Python, Pandas, Matplotlib, Data Analytics | 🟢 *Dépôt Public* |
 
