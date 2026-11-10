@@ -12,6 +12,12 @@
 
 ## 🖥️ Portfolio Déployé & Vitrine Opérationnelle
 
+<p align="center">
+  <a href="https://tayier.snorbik.com/projects" target="_blank" rel="noopener noreferrer">
+    <img src="assets/portfolio_preview_card.svg" alt="SNORBIK Projects Viewer - Live Interactive Portfolio Showroom" width="100%" />
+  </a>
+</p>
+
 > 🌐 **Accédez directement aux plateformes de production hébergées sur Hostinger :**
 >
 > | Plateforme | Rôle & Contenu | Lien Direct |
