@@ -15,6 +15,7 @@ import './ProjectsViewer.css';
 
 export interface ProjectsViewerProps extends Partial<ViewerConfig> {
   sourceUrl: string;
+  showChromeBar?: boolean;
   onStateChange?: (state: ViewerState) => void;
   className?: string;
 }
@@ -27,6 +28,7 @@ export const ProjectsViewer: React.FC<ProjectsViewerProps> = ({
   minHeight,
   sandboxPolicy = 'allow-scripts allow-same-origin allow-popups allow-forms allow-downloads',
   className = '',
+  showChromeBar = false,
   onStateChange
 }) => {
   const [state, setState] = useState<ViewerState>('validating');
@@ -96,55 +98,57 @@ export const ProjectsViewer: React.FC<ProjectsViewerProps> = ({
       className={`spv-root ${isFullscreen ? 'is-fullscreen' : ''} ${className}`}
       style={minHeight ? { minHeight: `${minHeight}px` } : undefined}
     >
-      {/* 1. Fenêtre Navigateur Simulée (Chrome Frame) */}
-      <div className="spv-chrome-bar">
-        {/* Pastilles macOS */}
-        <div className="spv-chrome-dots">
-          <span className="spv-dot spv-dot-red" title="Fermer" />
-          <span className="spv-dot spv-dot-yellow" title="Réduire" />
-          <span className="spv-dot spv-dot-green" title="Agrandir" />
-        </div>
+      {/* 1. Fenêtre Navigateur Simulée (Optionnelle) */}
+      {showChromeBar && (
+        <div className="spv-chrome-bar">
+          {/* Pastilles macOS */}
+          <div className="spv-chrome-dots">
+            <span className="spv-dot spv-dot-red" title="Fermer" />
+            <span className="spv-dot spv-dot-yellow" title="Réduire" />
+            <span className="spv-dot spv-dot-green" title="Agrandir" />
+          </div>
 
-        {/* Barre d'adresse URL sécurisée */}
-        <div className="spv-address-pill">
-          <Lock size={12} className="spv-lock-icon" />
-          <span className="spv-url-protocol">https://</span>
-          <span className="spv-url-body">{sourceUrl.replace(/^https?:\/\//, '')}</span>
-          <span className="spv-source-badge">Live Hostinger VPS</span>
-        </div>
+          {/* Barre d'adresse URL sécurisée */}
+          <div className="spv-address-pill">
+            <Lock size={12} className="spv-lock-icon" />
+            <span className="spv-url-protocol">https://</span>
+            <span className="spv-url-body">{sourceUrl.replace(/^https?:\/\//, '')}</span>
+            <span className="spv-source-badge">Live Hostinger VPS</span>
+          </div>
 
-        {/* Contrôles d'actions rapides */}
-        <div className="spv-chrome-actions">
-          <button 
-            type="button" 
-            onClick={reloadIframe} 
-            className="spv-btn-icon" 
-            title="Recharger le conteneur"
-            aria-label="Recharger"
-          >
-            <RefreshCw size={14} className={state === 'loading' ? 'is-spinning' : ''} />
-          </button>
-          <button 
-            type="button" 
-            onClick={toggleFullscreen} 
-            className="spv-btn-icon" 
-            title={isFullscreen ? 'Quitter le plein écran' : 'Passer en plein écran'}
-            aria-label="Plein écran"
-          >
-            {isFullscreen ? <Minimize2 size={14} /> : <Maximize2 size={14} />}
-          </button>
-          <a 
-            href={targetUrl} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="spv-btn-primary"
-            title="Ouvrir dans un nouvel onglet"
-          >
-            <span>Ouvrir sur le site</span>
-            <ExternalLink size={13} />
-          </a>
+          {/* Contrôles d'actions rapides */}
+          <div className="spv-chrome-actions">
+            <button 
+              type="button" 
+              onClick={reloadIframe} 
+              className="spv-btn-icon" 
+              title="Recharger le conteneur"
+              aria-label="Recharger"
+            >
+              <RefreshCw size={14} className={state === 'loading' ? 'is-spinning' : ''} />
+            </button>
+            <button 
+              type="button" 
+              onClick={toggleFullscreen} 
+              className="spv-btn-icon" 
+              title={isFullscreen ? 'Quitter le plein écran' : 'Passer en plein écran'}
+              aria-label="Plein écran"
+            >
+              {isFullscreen ? <Minimize2 size={14} /> : <Maximize2 size={14} />}
+            </button>
+            <a 
+              href={targetUrl} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="spv-btn-primary"
+              title="Ouvrir dans un nouvel onglet"
+            >
+              <span>Ouvrir sur le site</span>
+              <ExternalLink size={13} />
+            </a>
+          </div>
         </div>
-      </div>
+      )}
 
       {/* 2. Zone de Contenu : Iframe et Overlays d'États */}
       <div className="spv-viewport">
