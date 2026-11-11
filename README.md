@@ -13,15 +13,22 @@
 ## 🖥️ Portfolio Déployé & Vitrine Opérationnelle
 
 <p align="center">
-  <a href="https://tayier.snorbik.com/projects" target="_blank" rel="noopener noreferrer">
+  <a href="https://snorbik-ai.github.io/snorbik-ai/" target="_blank" rel="noopener noreferrer">
     <img src="assets/portfolio_preview_card.svg" alt="SNORBIK Projects Viewer - Live Interactive Portfolio Showroom" width="100%" />
   </a>
 </p>
 
-> 🌐 **Accédez directement aux plateformes de production hébergées sur Hostinger :**
+<p align="center">
+  <a href="https://snorbik-ai.github.io/snorbik-ai/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/⚡_Conteneur_Live_Interactif-Ouvrir_sur_GitHub_Pages-00f0ff?style=for-the-badge&logo=github&logoColor=black" alt="Ouvrir sur GitHub Pages" />
+  </a>
+</p>
+
+> 🌐 **Accédez directement aux plateformes de production hébergées sur Hostinger ou via le conteneur GitHub Pages :**
 >
 > | Plateforme | Rôle & Contenu | Lien Direct |
 > | :--- | :--- | :--- |
+> | ⚡ **Conteneur Live GitHub Pages** | **Composant SDK React en direct** hébergé sur GitHub Pages connectant le showroom | [**snorbik-ai.github.io/snorbik-ai** ↗](https://snorbik-ai.github.io/snorbik-ai/) |
 > | 🧪 **Showroom Tayier** | Portfolio interactif, démos agentiques, 70+ réalisations répertoriées | [**tayier.snorbik.com** ↗](https://tayier.snorbik.com) |
 > | 📄 **CV Ingénieur IA** | Parcours détaillé, compétences certifiées, stack technique et coordonnées | [**tayier.snorbik.com/cv** ↗](https://tayier.snorbik.com/cv) |
 > | 📦 **Catalogue Projets** | Fiches détaillées, architectures logicielles, bancs d'essais RAG et métriques | [**tayier.snorbik.com/projects** ↗](https://tayier.snorbik.com/projects) |
