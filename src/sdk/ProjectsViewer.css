@@ -4,14 +4,15 @@
 
 .spv-root {
   position: relative;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #050a14;
-  border: 1px solid rgba(0, 217, 255, 0.2);
-  border-radius: 12px;
+  border: none;
+  border-radius: 0;
   overflow: hidden;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6), 0 0 24px rgba(0, 217, 255, 0.08);
+  box-shadow: none;
   transition: all 0.25s ease;
 }
 
@@ -21,13 +22,14 @@
   z-index: 99999;
   border-radius: 0;
   border: none;
+  width: 100vw;
   height: 100vh;
 }
 
 /* Barre de navigation simulée */
 .spv-chrome-bar {
-  height: 48px;
-  background: #0b1220;
+  height: 42px;
+  background: #080d19;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   align-items: center;
@@ -153,20 +155,21 @@
   position: relative;
   flex: 1;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 42px);
   background: #020610;
+  overflow: hidden;
 }
 
 .spv-iframe {
   width: 100%;
   height: 100%;
-  min-height: 720px;
+  min-height: 0;
   border: none;
   display: block;
 }
 
 .spv-root.is-fullscreen .spv-iframe {
-  min-height: calc(100vh - 48px);
+  min-height: calc(100vh - 42px);
 }
 
 /* Overlays */

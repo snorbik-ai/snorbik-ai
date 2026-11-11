@@ -22,9 +22,9 @@ export interface ProjectsViewerProps extends Partial<ViewerConfig> {
 export const ProjectsViewer: React.FC<ProjectsViewerProps> = ({
   sourceUrl,
   allowedOrigins = DEFAULT_ALLOWED_ORIGINS,
-  title = 'SNORBIK Projects Viewer',
+  title = 'Tayier Nimait — Applied AI Portfolio & Showroom',
   fallbackUrl,
-  minHeight = 780,
+  minHeight,
   sandboxPolicy = 'allow-scripts allow-same-origin allow-popups allow-forms allow-downloads',
   className = '',
   onStateChange
@@ -94,7 +94,7 @@ export const ProjectsViewer: React.FC<ProjectsViewerProps> = ({
     <div
       ref={containerRef}
       className={`spv-root ${isFullscreen ? 'is-fullscreen' : ''} ${className}`}
-      style={{ minHeight: isFullscreen ? '100vh' : `${minHeight}px` }}
+      style={minHeight ? { minHeight: `${minHeight}px` } : undefined}
     >
       {/* 1. Fenêtre Navigateur Simulée (Chrome Frame) */}
       <div className="spv-chrome-bar">
