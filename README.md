@@ -38,7 +38,7 @@
 
 ---
 
-## 💼 Mes 4 Branches de Solutions & Services (`80 % Business`)
+## 💼 Mes 4 Branches de Solutions & Services 
 
 De l'acquisition client à l'automatisation interne, **SNORBIK Studio** conçoit des solutions numériques clé-en-main orientées ROI, souveraineté des données (RGPD / AI Act) et rapidité de mise en production :
 
