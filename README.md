@@ -5,49 +5,54 @@
 
 *"J'aide les entreprises, dirigeants, fondateurs et équipes tech à concevoir et déployer rapidement leurs sites internet haute conversion (SEO/GEO), MVP SaaS, serveurs FastMCP et agents IA autonomes."*
 
-[![Official B2B Studio](https://img.shields.io/badge/🏢_Site_Officiel_&_Devis-snorbik.com-00d9ff?style=for-the-badge&logo=googlechrome&logoColor=black)](https://snorbik.com)
-[![Portfolio & Démos](https://img.shields.io/badge/🧪_Portfolio_&_Démos-tayier.snorbik.com-7928ca?style=for-the-badge&logo=safari&logoColor=white)](https://tayier.snorbik.com)
-[![CV Interactif](https://img.shields.io/badge/📄_CV_Ingénieur-tayier.snorbik.com%2Fcv-10b981?style=for-the-badge&logo=googledocs&logoColor=white)](https://tayier.snorbik.com/cv)
-[![LinkedIn Officiel](https://img.shields.io/badge/💼_LinkedIn-tayier--dev--ai--data-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tayier-dev-ai-data/)
-
-<br/>
-
-<!-- ======================================================================= -->
-<!-- 1. VITRINE IMMÉDIATE (PREMIER ÉCRAN DESKTOP — ZERO SCROLL)             -->
-<!-- ======================================================================= -->
-
 <a href="https://snorbik.com" target="_blank" rel="noopener noreferrer">
-  <img src="assets/portfolio_preview_card.svg" alt="SNORBIK Studio & Portfolio Live - Tayier Nimait (Web, MVP SaaS, FastMCP & AI Agents)" width="100%" />
+  <img src="https://snorbik.com/assets/profile/linkedin-banner-2026.png" alt="SNORBIK Studio B2B — Sites Web Professionnels dès 700 € HT & Assistants IA Sur Mesure" width="100%" />
 </a>
 
-<p align="center">
-  <a href="https://snorbik.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/🏢_DÉMARRER_UN_PROJET_B2B-snorbik.com-00d9ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Site Officiel SNORBIK Studio" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://tayier.snorbik.com/projects" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/🚀_EXPLORER_LES_DÉMOS_LIVE-tayier.snorbik.com-7928ca?style=for-the-badge&logo=safari&logoColor=white" alt="Ouvrir le portfolio interactif" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://snorbik-ai.github.io/snorbik-ai/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/⚡_CONTENEUR_GITHUB_PAGES-snorbik--ai.github.io-1e293b?style=for-the-badge&logo=github&logoColor=00d9ff" alt="Ouvrir le conteneur GitHub Pages" />
-  </a>
-</p>
+### 🏢 SNORBIK Studio B2B — Sites Web SEO/GEO & Solutions IA Clé en Main
+
+**Zéro abonnement caché · Zéro contrat 48 mois · 100 % Propriétaire dès le 1er jour**
+
+[![Découvrir SNORBIK B2B](https://img.shields.io/badge/🌐_SITE_COMMERCIAL_B2B-snorbik.com-00d9ff?style=for-the-badge)](https://snorbik.com)
+[![Explorer le Portfolio](https://img.shields.io/badge/🧪_PORTFOLIO_INGÉNIEUR_IA-tayier.snorbik.com-7928ca?style=for-the-badge)](https://tayier.snorbik.com)
+[![Demander un Devis 24h](https://img.shields.io/badge/⚡_DEVIS_GRATUIT_24H-snorbik.com%2Fcontact-10b981?style=for-the-badge)](https://snorbik.com/contact)
+[![LinkedIn Officiel](https://img.shields.io/badge/💼_LinkedIn-tayier--dev--ai--data-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tayier-dev-ai-data/)
 
 </div>
 
 ---
 
-## 💼 Mes 4 Branches de Solutions & Services (`80 % Business`)
+## 💼 Ce Que Je Déploie Pour Votre Entreprise (4 Offres Claires)
 
-De l'acquisition client à l'automatisation interne, **SNORBIK Studio** conçoit des solutions numériques clé-en-main orientées ROI, souveraineté des données (RGPD / AI Act) et rapidité de mise en production :
-
-| Branche de Service | Problème Résolu & Bénéfice Client | Livrables Clés | Accès / Démo |
+| Catégorie | Ce que vous obtenez | Tarif Fixe (Propriétaire) | Découvrir |
 | :--- | :--- | :--- | :--- |
-| **🌐 1. Sites Internet & Vitrines Haute Conversion (SEO / GEO)** | Transformer votre visibilité Google et apparaître en priorité dans les réponses des IA (**ChatGPT Search, Perplexity, Gemini, Claude**). **Dès 700 € HT** — mise en ligne rapide. | Vitrines React/Vite ultra-rapides, pages locales (`/geo`), fichiers `llms.txt`, `robots.txt`, `sitemap.xml`, `Schema.org` & **SNORBIK Geo-SEO SDK**. | [**snorbik.com/solutions** ↗](https://snorbik.com/solutions) |
-| **🚀 2. MVP & Applications Web / SaaS Clé-en-Main** | Passer d'une idée métier à un produit rentable et déployé sans dette technique ni délais interminables (**1er livrable sous 10 jours ouvrés**). | Interfaces **React 19 / TypeScript** (architecture DPN-IA), API **FastAPI / Python**, bases PostgreSQL / SQLite & déploiement Docker hermétique. | [**snorbik.com/catalogue** ↗](https://snorbik.com/catalogue) |
-| **🔌 3. Serveurs MCP & Connecteurs d'Entreprise (FastMCP)** | Connecter en toute sécurité **Claude, Cursor** et vos copilotes IA directement à vos bases SQL, devis, ERP, PDFs et outils internes. | Serveurs **FastMCP Hybrides Tri-Canal** (`STDIO` / `CLI` / `SDK`), validation Pydantic stricte, garde-fous déterministes et zéro hallucination métier. | [**tayier.snorbik.com/docs** ↗](https://tayier.snorbik.com/docs) |
-| **🤖 4. Agents IA & Automatisation Métier** | Supprimer les tâches répétitives (prise de RDV, chiffrage, extraction PDF/RAG, support client) tout en gardant le contrôle total sur vos données. | Copilotes split-screen temps réel, flottes multi-agents synchronisées, pipelines RAG hybrides et inférence locale **On-Premise (Ollama / vLLM)**. | [**snorbik.com/rendez-vous** ↗](https://snorbik.com/rendez-vous) |
+| **1. Site Vitrine Clé en Main & SEO Local** | Design moderne mobile-first, bouton Appel/WhatsApp, référencement Google & IA (**106 zones Île-de-France / Paris**). | **Dès 700 € HT** | [**snorbik.com/services** ↗](https://snorbik.com/services) |
+| **2. E-Commerce & Configurateur 2D/3D** | Boutique Stripe/CB + calculateur de devis visuel connecté à vos tarifs (*preuve terrain BatiHome / AxeSteel*). | **Dès 1 450 € HT** | [**snorbik.com/projets/batihome-axesteel** ↗](https://snorbik.com/projets/batihome-axesteel) |
+| **3. Assistant IA, Devis Auto & WhatsApp** | Assistant connecté à vos vrais prix, génération de devis PDF et prise de RDV 24h/24 sans hallucination. | **Dès 1 800 € HT** | [**snorbik.com/solutions** ↗](https://snorbik.com/solutions) |
+| **4. Application Métier & Logiciel Sur Mesure** | Remplacement des fichiers Excel par une plateforme web/API sécurisée (**React / FastAPI / FastMCP / RGPD**). | **Dès 2 200 € HT** | [**tayier.snorbik.com/projects** ↗](https://tayier.snorbik.com/projects) |
+
+---
+
+## 🏆 Aperçu Visuel Cliquable (Cliquez sur une Miniature pour Ouvrir le Site)
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://snorbik.com/projets/batihome-axesteel" target="_blank">
+        <img src="https://raw.githubusercontent.com/snorbik-ai/snorbik-ai/main/assets/projects/batihome-axesteel.png" alt="BatiHome AxeSteel — Configurateur 2D/3D & Devis Automatisé" width="100%" />
+      </a>
+      <br/>
+      <b>🏗️ <a href="https://snorbik.com/projets/batihome-axesteel">BatiHome / AxeSteel — Configurateur & E-Commerce BTP</a></b>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://tayier.snorbik.com/projects" target="_blank">
+        <img src="https://snorbik.com/assets/projects/projects-hero-fused-laptop.png" alt="Portfolio Ingénieur IA — Tayier Nimait" width="100%" />
+      </a>
+      <br/>
+      <b>⚡ <a href="https://tayier.snorbik.com/projects">Portfolio & Démonstrateurs Live (FastMCP & Agents IA)</a></b>
+    </td>
+  </tr>
+</table>
 
 ---
 
