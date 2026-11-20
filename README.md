@@ -14,6 +14,7 @@
 **Zéro abonnement caché · Zéro contrat 48 mois · 100 % Propriétaire dès le 1er jour**
 
 [![Découvrir SNORBIK B2B](https://img.shields.io/badge/🌐_SITE_COMMERCIAL_B2B-snorbik.com-00d9ff?style=for-the-badge)](https://snorbik.com)
+[![Spot Vidéo 30s](https://img.shields.io/badge/🎬_VOIR_LE_SPOT_VIDÉO_30s-YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/yGrqIvFr2ng)
 [![Explorer le Portfolio](https://img.shields.io/badge/🧪_PORTFOLIO_INGÉNIEUR_IA-tayier.snorbik.com-7928ca?style=for-the-badge)](https://tayier.snorbik.com)
 [![Demander un Devis 24h](https://img.shields.io/badge/⚡_DEVIS_GRATUIT_24H-snorbik.com%2Fcontact-10b981?style=for-the-badge)](https://snorbik.com/contact)
 [![LinkedIn Officiel](https://img.shields.io/badge/💼_LinkedIn-tayier--dev--ai--data-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tayier-dev-ai-data/)
